@@ -1,0 +1,181 @@
+{
+  "kategoriler": [
+    {
+      "Köklü İfadeler": [
+        {
+          "soruMetni": "Kök 144 ifadesinin değeri nedir?",
+          "cevap": "12",
+          "cozuldumu": false,
+          "secenekler": {
+            "A": "72",
+            "B": "10",
+            "C": "11",
+            "D": "12"
+          },
+          "DogruSecenek": "D"
+        },
+        {
+          "soruMetni": "Kök 81 ifadesinin değeri nedir?",
+          "cevap": "9",
+          "cozuldumu": false,
+          "secenekler": {
+            "A": "7",
+            "B": "8",
+            "C": "9",
+            "D": "10"
+          },
+          "DogruSecenek": "C"
+        },
+        {
+          "soruMetni": "Kök 75 ifadesinin değeri nedir?",
+          "cevap": "Beş kök üç",
+          "cozuldumu": false,
+          "secenekler": {
+            "A": "5 kök 3",
+            "B": "6 kök 2",
+            "C": "7 kök 3",
+            "D": "5 kök 2"
+          },
+          "DogruSecenek": "A"
+        },
+        {
+          "soruMetni": "Kök 49 ifadesinin değeri nedir?",
+          "cevap": "7",
+          "cozuldumu": false,
+          "secenekler": {
+            "A": "6",
+            "B": "7",
+            "C": "8",
+            "D": "9"
+          },
+          "DogruSecenek": "B"
+        },
+        {
+          "soruMetni": "3 kök 2, 2 kök 3 ve 5 kök 2 ifadelerinin toplamı nedir?",
+          "cevap": "8 kök 2 + 2 kök 3",
+          "cozuldumu": false,
+          "secenekler": {
+            "A": "7 kök 2 + 2 kök 3",
+            "B": "8 kök 2 + 2 kök 3",
+            "C": "9 kök 2 + 2 kök 3",
+            "D": "10 kök 2 + 2 kök 3"
+          },
+          "DogruSecenek": "B"
+        },
+        {
+          "soruMetni": "Kök 2 çarpı kök 8 ifadesinin değeri nedir?",
+          "cevap": "4",
+          "cozuldumu": false,
+          "secenekler": {
+            "A": "2",
+            "B": "3",
+            "C": "4",
+            "D": "5"
+          },
+          "DogruSecenek": "C"
+        },
+        {
+          "soruMetni": "Kök 50 ifadesinin sadeleştirilmiş hali nedir?",
+          "cevap": "5 kök 2",
+          "cozuldumu": false,
+          "secenekler": {
+            "A": "4 kök 2",
+            "B": "5 kök 2",
+            "C": "6 kök 2",
+            "D": "7 kök 2"
+          },
+          "DogruSecenek": "B"
+        },
+        {
+          "soruMetni": "Kök 72 bölü kök 2 ifadesinin değeri nedir?",
+          "cevap": "6",
+          "cozuldumu": false,
+          "secenekler": {
+            "A": "5",
+            "B": "6",
+            "C": "7",
+            "D": "8"
+          },
+          "DogruSecenek": "B"
+        },
+        {
+          "soruMetni": "Kök 27 ifadesinin sadeleştirilmiş hali nedir?",
+          "cevap": "3 kök 3",
+          "cozuldumu": false,
+          "secenekler":
+            {
+              "A": "2 kök 3",
+              "B": "3 kök 3",
+              "C": "4 kök 3",
+              "D": "5 kök 3"
+            },
+            "DogruSecenek": "B"
+        },
+        {
+          "soruMetni": "Kök içinde 0,16 ifadesinin değeri nedir?",
+          "cevap": "0,4",
+          "cozuldumu": false,
+          "secenekler": {
+            "A": "0,2",
+            "B": "0,3",
+            "C": "0,4",
+            "D": "0,5"
+          },
+          "DogruSecenek": "C"
+        },
+        {
+          "soruMetni": "10 bölü kök 5 ifadesinin değeri nedir?",
+          "cevap": "2 kök 5",
+          "cozuldumu": false,
+          "secenekler":
+            {
+              "A": "2 kök 5",
+              "B": "3 kök 5",
+              "C": "4 kök 5",
+              "D": "5 kök 5"
+            },
+            "DogruSecenek": "A"
+        },
+        {
+          "soruMetni": "Aşağıdakilerden hangisi daha büyüktür?",
+          "cevap": "Kök 10",
+          "cozuldumu": false,
+          "secenekler": {
+            "A": "3",
+            "B": "Kök 10",
+            "C": "Kök 8",
+            "D": "2 Kök 2"
+          },
+          "DogruSecenek": "B"
+        },
+        {
+          "soruMetni": "Aşağıdakilerden hangisi daha küçüktür?",  
+          "cevap": "Kök 5",
+          "cozuldumu": false,
+          "secenekler": {
+            "A": "Kök 6",
+            "B": "Kök 7",
+            "C": "Kök 5",
+            "D": "2"
+          },
+          "DogruSecenek": "C"
+        },
+        {
+          "soruMetni": "Kök 20 ile kök 45 ifadelerinin toplamı nedir?",
+          "cevap": "5 kök 5",
+          "cozuldumu": false,
+          "secenekler": {
+            "A": "4 kök 5",
+            "B": "5 kök 5",
+            "C": "6 kök 5",
+            "D": "7 kök 5"
+          },
+          "DogruSecenek": "B"
+        }
+        
+        
+        
+      ]
+    }
+  ]
+}
