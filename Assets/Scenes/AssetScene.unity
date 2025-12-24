@@ -176,7 +176,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 0}
+  m_Sprite: {fileID: 1762828493, guid: 9b26be90b8a7b620d950ae924287cf6d, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -251,7 +251,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 0}
+  m_Sprite: {fileID: -356047907, guid: 9b26be90b8a7b620d950ae924287cf6d, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -281,6 +281,7 @@ GameObject:
   - component: {fileID: 27312278}
   - component: {fileID: 27312277}
   - component: {fileID: 27312276}
+  - component: {fileID: 27312279}
   m_Layer: 5
   m_Name: Button (Legacy) (2)
   m_TagString: Untagged
@@ -351,7 +352,19 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 27312277}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 27312279}
+        m_TargetAssemblyTypeName: MarketUrunButonu, Assembly-CSharp
+        m_MethodName: SatinAl
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &27312277
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -390,6 +403,23 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 27312274}
   m_CullTransparentMesh: 1
+--- !u!114 &27312279
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 27312274}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 09225fe67433e9ed6a0ac07654ce7dc7, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  urunID: 21
+  fiyat: 2100
+  buButon: {fileID: 27312276}
+  coinTexti: {fileID: 1656027014}
+  satildiResmi: {fileID: 0}
 --- !u!114 &31964079 stripped
 MonoBehaviour:
   m_CorrespondingSourceObject: {fileID: 798217865983278381, guid: ec69559d747a9690bac3ddb68a4723f2, type: 3}
@@ -418,6 +448,7 @@ GameObject:
   - component: {fileID: 145158380}
   - component: {fileID: 145158379}
   - component: {fileID: 145158378}
+  - component: {fileID: 145158381}
   m_Layer: 5
   m_Name: Button (Legacy) (5)
   m_TagString: Untagged
@@ -488,7 +519,19 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 145158379}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 145158381}
+        m_TargetAssemblyTypeName: MarketUrunButonu, Assembly-CSharp
+        m_MethodName: SatinAl
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &145158379
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -527,6 +570,23 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 145158376}
   m_CullTransparentMesh: 1
+--- !u!114 &145158381
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 145158376}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 09225fe67433e9ed6a0ac07654ce7dc7, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  urunID: 24
+  fiyat: 2400
+  buButon: {fileID: 145158378}
+  coinTexti: {fileID: 1656027014}
+  satildiResmi: {fileID: 0}
 --- !u!1 &149469218
 GameObject:
   m_ObjectHideFlags: 0
@@ -673,10 +733,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 09225fe67433e9ed6a0ac07654ce7dc7, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  urunID: 1
-  fiyat: 100
-  buButon: {fileID: 0}
-  coinTexti: {fileID: 0}
+  urunID: 19
+  fiyat: 1900
+  buButon: {fileID: 149469220}
+  coinTexti: {fileID: 1656027014}
   satildiResmi: {fileID: 0}
 --- !u!1 &176316119
 GameObject:
@@ -748,7 +808,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: 100
+  m_Text: 2200
 --- !u!222 &176316122
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -827,7 +887,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: 100
+  m_Text: 3400
 --- !u!222 &178273751
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -893,7 +953,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 0}
+  m_Sprite: {fileID: 81714287, guid: 87ccf3fe8592d5641a709ea55e0a52a6, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -923,6 +983,7 @@ GameObject:
   - component: {fileID: 198736387}
   - component: {fileID: 198736386}
   - component: {fileID: 198736385}
+  - component: {fileID: 198736388}
   m_Layer: 5
   m_Name: Button (Legacy) (6)
   m_TagString: Untagged
@@ -993,7 +1054,19 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 198736386}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 198736388}
+        m_TargetAssemblyTypeName: MarketUrunButonu, Assembly-CSharp
+        m_MethodName: SatinAl
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &198736386
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1032,6 +1105,23 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 198736383}
   m_CullTransparentMesh: 1
+--- !u!114 &198736388
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 198736383}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 09225fe67433e9ed6a0ac07654ce7dc7, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  urunID: 25
+  fiyat: 2500
+  buButon: {fileID: 198736385}
+  coinTexti: {fileID: 1656027014}
+  satildiResmi: {fileID: 0}
 --- !u!1 &220234337
 GameObject:
   m_ObjectHideFlags: 0
@@ -1180,7 +1270,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   urunID: 17
   fiyat: 1700
-  buButon: {fileID: 0}
+  buButon: {fileID: 220234339}
   coinTexti: {fileID: 1656027014}
   satildiResmi: {fileID: 0}
 --- !u!1 &223668769
@@ -1240,7 +1330,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 0}
+  m_Sprite: {fileID: -665566644, guid: 9b26be90b8a7b620d950ae924287cf6d, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -1328,7 +1418,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: 100
+  m_Text: 1900
 --- !u!222 &264985884
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -1366,7 +1456,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 47564ea6410afa24fb8832a9cec7c95b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  coinTexti: {fileID: 0}
+  coinTexti: {fileID: 1656027014}
 --- !u!4 &296816857
 Transform:
   m_ObjectHideFlags: 0
@@ -1439,7 +1529,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 0}
+  m_Sprite: {fileID: 859294137, guid: 2ed0264ca788db39e81081123db70264, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -1527,7 +1617,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: 100
+  m_Text: 2600
 --- !u!222 &321721991
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -1593,7 +1683,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 0}
+  m_Sprite: {fileID: -907912420, guid: 9b26be90b8a7b620d950ae924287cf6d, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -1681,7 +1771,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: 100
+  m_Text: 2100
 --- !u!222 &342503973
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -2062,7 +2152,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: 100
+  m_Text: 2000
 --- !u!222 &432816794
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -2128,7 +2218,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 0}
+  m_Sprite: {fileID: 352553640, guid: 2ed0264ca788db39e81081123db70264, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -2145,6 +2235,142 @@ CanvasRenderer:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 447240294}
+  m_CullTransparentMesh: 1
+--- !u!1 &459166465
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 459166466}
+  - component: {fileID: 459166468}
+  - component: {fileID: 459166467}
+  m_Layer: 5
+  m_Name: Text (TMP)
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!224 &459166466
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 459166465}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 1531426449}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0.5, y: 0.5}
+  m_AnchorMax: {x: 0.5, y: 0.5}
+  m_AnchoredPosition: {x: 10, y: 350}
+  m_SizeDelta: {x: 200, y: 50}
+  m_Pivot: {x: 0.5, y: 0.5}
+--- !u!114 &459166467
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 459166465}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f4688fdb7df04437aeb418b961361dc5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Material: {fileID: 0}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_RaycastTarget: 1
+  m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
+  m_Maskable: 1
+  m_OnCullStateChanged:
+    m_PersistentCalls:
+      m_Calls: []
+  m_text: 2.Sayfa
+  m_isRightToLeft: 0
+  m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
+  m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
+  m_fontSharedMaterials: []
+  m_fontMaterial: {fileID: 0}
+  m_fontMaterials: []
+  m_fontColor32:
+    serializedVersion: 2
+    rgba: 4294967295
+  m_fontColor: {r: 1, g: 1, b: 1, a: 1}
+  m_enableVertexGradient: 0
+  m_colorMode: 3
+  m_fontColorGradient:
+    topLeft: {r: 1, g: 1, b: 1, a: 1}
+    topRight: {r: 1, g: 1, b: 1, a: 1}
+    bottomLeft: {r: 1, g: 1, b: 1, a: 1}
+    bottomRight: {r: 1, g: 1, b: 1, a: 1}
+  m_fontColorGradientPreset: {fileID: 0}
+  m_spriteAsset: {fileID: 0}
+  m_tintAllSprites: 0
+  m_StyleSheet: {fileID: 0}
+  m_TextStyleHashCode: -1183493901
+  m_overrideHtmlColors: 0
+  m_faceColor:
+    serializedVersion: 2
+    rgba: 4294967295
+  m_fontSize: 36
+  m_fontSizeBase: 36
+  m_fontWeight: 400
+  m_enableAutoSizing: 0
+  m_fontSizeMin: 18
+  m_fontSizeMax: 72
+  m_fontStyle: 1
+  m_HorizontalAlignment: 1
+  m_VerticalAlignment: 256
+  m_textAlignment: 65535
+  m_characterSpacing: 0
+  m_wordSpacing: 0
+  m_lineSpacing: 0
+  m_lineSpacingMax: 0
+  m_paragraphSpacing: 0
+  m_charWidthMaxAdj: 0
+  m_TextWrappingMode: 1
+  m_wordWrappingRatios: 0.4
+  m_overflowMode: 0
+  m_linkedTextComponent: {fileID: 0}
+  parentLinkedComponent: {fileID: 0}
+  m_enableKerning: 0
+  m_ActiveFontFeatures: 6e72656b
+  m_enableExtraPadding: 0
+  checkPaddingRequired: 0
+  m_isRichText: 1
+  m_EmojiFallbackSupport: 1
+  m_parseCtrlCharacters: 1
+  m_isOrthographic: 1
+  m_isCullingEnabled: 0
+  m_horizontalMapping: 0
+  m_verticalMapping: 0
+  m_uvLineOffset: 0
+  m_geometrySortingOrder: 0
+  m_IsTextObjectScaleStatic: 0
+  m_VertexBufferAutoSizeReduction: 0
+  m_useMaxVisibleDescender: 1
+  m_pageToDisplay: 1
+  m_margin: {x: 0, y: 0, z: 0, w: 0}
+  m_isUsingLegacyAnimationComponent: 0
+  m_isVolumetricText: 0
+  m_hasFontAssetChanged: 0
+  m_baseMaterial: {fileID: 0}
+  m_maskOffset: {x: 0, y: 0, z: 0, w: 0}
+--- !u!222 &459166468
+CanvasRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 459166465}
   m_CullTransparentMesh: 1
 --- !u!1 &461995960
 GameObject:
@@ -2216,7 +2442,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: 100
+  m_Text: 3300
 --- !u!222 &461995963
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -2374,7 +2600,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: 100
+  m_Text: 1700
 --- !u!222 &488094181
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -2453,7 +2679,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: 100
+  m_Text: 700
 --- !u!222 &506723312
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -2683,7 +2909,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: 100
+  m_Text: 1600
 --- !u!222 &557186433
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -2762,7 +2988,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: 100
+  m_Text: 1000
 --- !u!222 &580815263
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -3055,6 +3281,7 @@ GameObject:
   - component: {fileID: 678355699}
   - component: {fileID: 678355698}
   - component: {fileID: 678355697}
+  - component: {fileID: 678355700}
   m_Layer: 5
   m_Name: Button (Legacy) (10)
   m_TagString: Untagged
@@ -3125,7 +3352,19 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 678355698}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 678355700}
+        m_TargetAssemblyTypeName: MarketUrunButonu, Assembly-CSharp
+        m_MethodName: SatinAl
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &678355698
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -3164,6 +3403,23 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 678355695}
   m_CullTransparentMesh: 1
+--- !u!114 &678355700
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 678355695}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 09225fe67433e9ed6a0ac07654ce7dc7, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  urunID: 37
+  fiyat: 3700
+  buButon: {fileID: 678355697}
+  coinTexti: {fileID: 1656027014}
+  satildiResmi: {fileID: 0}
 --- !u!1 &730192583
 GameObject:
   m_ObjectHideFlags: 0
@@ -3176,6 +3432,7 @@ GameObject:
   - component: {fileID: 730192587}
   - component: {fileID: 730192586}
   - component: {fileID: 730192585}
+  - component: {fileID: 730192588}
   m_Layer: 5
   m_Name: Button (Legacy) (9)
   m_TagString: Untagged
@@ -3246,7 +3503,19 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 730192586}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 730192588}
+        m_TargetAssemblyTypeName: MarketUrunButonu, Assembly-CSharp
+        m_MethodName: SatinAl
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &730192586
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -3285,6 +3554,23 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 730192583}
   m_CullTransparentMesh: 1
+--- !u!114 &730192588
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 730192583}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 09225fe67433e9ed6a0ac07654ce7dc7, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  urunID: 36
+  fiyat: 3600
+  buButon: {fileID: 730192585}
+  coinTexti: {fileID: 1656027014}
+  satildiResmi: {fileID: 0}
 --- !u!1 &738453734
 GameObject:
   m_ObjectHideFlags: 0
@@ -3296,6 +3582,8 @@ GameObject:
   - component: {fileID: 738453737}
   - component: {fileID: 738453736}
   - component: {fileID: 738453735}
+  - component: {fileID: 738453739}
+  - component: {fileID: 738453738}
   m_Layer: 0
   m_Name: Main Camera
   m_TagString: MainCamera
@@ -3377,6 +3665,147 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!82 &738453738
+AudioSource:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 738453734}
+  m_Enabled: 1
+  serializedVersion: 4
+  OutputAudioMixerGroup: {fileID: 0}
+  m_audioClip: {fileID: 0}
+  m_Resource: {fileID: 8300000, guid: 5316ac38394668141ad477e9b393ae46, type: 3}
+  m_PlayOnAwake: 1
+  m_Volume: 1
+  m_Pitch: 1
+  Loop: 1
+  Mute: 0
+  Spatialize: 0
+  SpatializePostEffects: 0
+  Priority: 128
+  DopplerLevel: 1
+  MinDistance: 1
+  MaxDistance: 500
+  Pan2D: 0
+  rolloffMode: 0
+  BypassEffects: 0
+  BypassListenerEffects: 0
+  BypassReverbZones: 0
+  rolloffCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    - serializedVersion: 3
+      time: 1
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  panLevelCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  spreadCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  reverbZoneMixCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+--- !u!114 &738453739
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 738453734}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a79441f348de89743a2939f4d699eac1, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_RenderShadows: 1
+  m_RequiresDepthTextureOption: 2
+  m_RequiresOpaqueTextureOption: 2
+  m_CameraType: 0
+  m_Cameras: []
+  m_RendererIndex: -1
+  m_VolumeLayerMask:
+    serializedVersion: 2
+    m_Bits: 1
+  m_VolumeTrigger: {fileID: 0}
+  m_VolumeFrameworkUpdateModeOption: 2
+  m_RenderPostProcessing: 0
+  m_Antialiasing: 0
+  m_AntialiasingQuality: 2
+  m_StopNaN: 0
+  m_Dithering: 0
+  m_ClearDepth: 1
+  m_AllowXRRendering: 1
+  m_AllowHDROutput: 1
+  m_UseScreenCoordOverride: 0
+  m_ScreenSizeOverride: {x: 0, y: 0, z: 0, w: 0}
+  m_ScreenCoordScaleBias: {x: 0, y: 0, z: 0, w: 0}
+  m_RequiresDepthTexture: 0
+  m_RequiresColorTexture: 0
+  m_Version: 2
+  m_TaaSettings:
+    m_Quality: 3
+    m_FrameInfluence: 0.1
+    m_JitterScale: 1
+    m_MipBias: 0
+    m_VarianceClampScale: 0.9
+    m_ContrastAdaptiveSharpening: 0
 --- !u!1 &740481110
 GameObject:
   m_ObjectHideFlags: 0
@@ -3447,7 +3876,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: 100
+  m_Text: 500
 --- !u!222 &740481113
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -3468,6 +3897,7 @@ GameObject:
   - component: {fileID: 745486965}
   - component: {fileID: 745486964}
   - component: {fileID: 745486963}
+  - component: {fileID: 745486966}
   m_Layer: 5
   m_Name: Button (Legacy) (11)
   m_TagString: Untagged
@@ -3538,7 +3968,19 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 745486964}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 745486966}
+        m_TargetAssemblyTypeName: MarketUrunButonu, Assembly-CSharp
+        m_MethodName: SatinAl
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &745486964
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -3577,6 +4019,23 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 745486961}
   m_CullTransparentMesh: 1
+--- !u!114 &745486966
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 745486961}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 09225fe67433e9ed6a0ac07654ce7dc7, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  urunID: 38
+  fiyat: 3800
+  buButon: {fileID: 745486963}
+  coinTexti: {fileID: 1656027014}
+  satildiResmi: {fileID: 0}
 --- !u!1 &749154050
 GameObject:
   m_ObjectHideFlags: 0
@@ -3589,6 +4048,7 @@ GameObject:
   - component: {fileID: 749154054}
   - component: {fileID: 749154053}
   - component: {fileID: 749154052}
+  - component: {fileID: 749154055}
   m_Layer: 5
   m_Name: Button (Legacy) (4)
   m_TagString: Untagged
@@ -3659,7 +4119,19 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 749154053}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 749154055}
+        m_TargetAssemblyTypeName: MarketUrunButonu, Assembly-CSharp
+        m_MethodName: SatinAl
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &749154053
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -3698,6 +4170,23 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 749154050}
   m_CullTransparentMesh: 1
+--- !u!114 &749154055
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 749154050}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 09225fe67433e9ed6a0ac07654ce7dc7, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  urunID: 23
+  fiyat: 2300
+  buButon: {fileID: 749154052}
+  coinTexti: {fileID: 1656027014}
+  satildiResmi: {fileID: 0}
 --- !u!1 &760197761
 GameObject:
   m_ObjectHideFlags: 0
@@ -3919,7 +4408,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: 100
+  m_Text: 800
 --- !u!222 &767156881
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -4149,7 +4638,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: 100
+  m_Text: 2900
 --- !u!222 &787390474
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -4170,6 +4659,7 @@ GameObject:
   - component: {fileID: 789988447}
   - component: {fileID: 789988446}
   - component: {fileID: 789988445}
+  - component: {fileID: 789988448}
   m_Layer: 5
   m_Name: Button (Legacy) (8)
   m_TagString: Untagged
@@ -4240,7 +4730,19 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 789988446}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 789988448}
+        m_TargetAssemblyTypeName: MarketUrunButonu, Assembly-CSharp
+        m_MethodName: SatinAl
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &789988446
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -4279,6 +4781,23 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 789988443}
   m_CullTransparentMesh: 1
+--- !u!114 &789988448
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 789988443}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 09225fe67433e9ed6a0ac07654ce7dc7, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  urunID: 35
+  fiyat: 3500
+  buButon: {fileID: 789988445}
+  coinTexti: {fileID: 1656027014}
+  satildiResmi: {fileID: 0}
 --- !u!1 &824884746
 GameObject:
   m_ObjectHideFlags: 0
@@ -4349,7 +4868,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: 100
+  m_Text: 3200
 --- !u!222 &824884749
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -4370,6 +4889,7 @@ GameObject:
   - component: {fileID: 845830053}
   - component: {fileID: 845830052}
   - component: {fileID: 845830051}
+  - component: {fileID: 845830054}
   m_Layer: 5
   m_Name: Button (Legacy) (17)
   m_TagString: Untagged
@@ -4440,7 +4960,19 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 845830052}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 845830054}
+        m_TargetAssemblyTypeName: MarketUrunButonu, Assembly-CSharp
+        m_MethodName: SatinAl
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &845830052
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -4479,6 +5011,23 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 845830049}
   m_CullTransparentMesh: 1
+--- !u!114 &845830054
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 845830049}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 09225fe67433e9ed6a0ac07654ce7dc7, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  urunID: 34
+  fiyat: 3400
+  buButon: {fileID: 845830051}
+  coinTexti: {fileID: 1656027014}
+  satildiResmi: {fileID: 0}
 --- !u!1 &870481938
 GameObject:
   m_ObjectHideFlags: 0
@@ -4642,6 +5191,7 @@ GameObject:
   - component: {fileID: 899469027}
   - component: {fileID: 899469026}
   - component: {fileID: 899469025}
+  - component: {fileID: 899469028}
   m_Layer: 5
   m_Name: Button (Legacy) (3)
   m_TagString: Untagged
@@ -4712,7 +5262,19 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 899469026}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 899469028}
+        m_TargetAssemblyTypeName: MarketUrunButonu, Assembly-CSharp
+        m_MethodName: SatinAl
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &899469026
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -4751,6 +5313,23 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 899469023}
   m_CullTransparentMesh: 1
+--- !u!114 &899469028
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 899469023}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 09225fe67433e9ed6a0ac07654ce7dc7, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  urunID: 22
+  fiyat: 2200
+  buButon: {fileID: 899469025}
+  coinTexti: {fileID: 1656027014}
+  satildiResmi: {fileID: 0}
 --- !u!1 &907915287
 GameObject:
   m_ObjectHideFlags: 0
@@ -4821,7 +5400,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: 100
+  m_Text: 900
 --- !u!222 &907915290
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -4900,7 +5479,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: 100
+  m_Text: 3100
 --- !u!222 &913149902
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -4979,7 +5558,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: 100
+  m_Text: 3600
 --- !u!222 &926740582
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -5087,7 +5666,7 @@ MonoBehaviour:
       m_Calls:
       - m_Target: {fileID: 933304571}
         m_TargetAssemblyTypeName: MenuManager, Assembly-CSharp
-        m_MethodName: farmscane
+        m_MethodName: StartGame
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -5205,7 +5784,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: 100
+  m_Text: 400
 --- !u!222 &934260839
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -5271,7 +5850,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 0}
+  m_Sprite: {fileID: -1212673110, guid: 9b26be90b8a7b620d950ae924287cf6d, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -5497,7 +6076,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 0}
+  m_Sprite: {fileID: -1517249788, guid: 87ccf3fe8592d5641a709ea55e0a52a6, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -5527,6 +6106,7 @@ GameObject:
   - component: {fileID: 988772898}
   - component: {fileID: 988772897}
   - component: {fileID: 988772896}
+  - component: {fileID: 988772899}
   m_Layer: 5
   m_Name: Button (Legacy) (14)
   m_TagString: Untagged
@@ -5597,7 +6177,19 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 988772897}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 988772899}
+        m_TargetAssemblyTypeName: MarketUrunButonu, Assembly-CSharp
+        m_MethodName: SatinAl
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &988772897
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -5636,6 +6228,23 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 988772894}
   m_CullTransparentMesh: 1
+--- !u!114 &988772899
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 988772894}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 09225fe67433e9ed6a0ac07654ce7dc7, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  urunID: 31
+  fiyat: 3100
+  buButon: {fileID: 988772896}
+  coinTexti: {fileID: 1656027014}
+  satildiResmi: {fileID: 0}
 --- !u!224 &998319531 stripped
 RectTransform:
   m_CorrespondingSourceObject: {fileID: 7857870391018634079, guid: ec69559d747a9690bac3ddb68a4723f2, type: 3}
@@ -5795,7 +6404,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: 100
+  m_Text: 1300
 --- !u!222 &1041057037
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -5816,6 +6425,7 @@ GameObject:
   - component: {fileID: 1057549720}
   - component: {fileID: 1057549719}
   - component: {fileID: 1057549718}
+  - component: {fileID: 1057549721}
   m_Layer: 5
   m_Name: Button (Legacy) (7)
   m_TagString: Untagged
@@ -5886,7 +6496,19 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 1057549719}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 1057549721}
+        m_TargetAssemblyTypeName: MarketUrunButonu, Assembly-CSharp
+        m_MethodName: SatinAl
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &1057549719
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -5925,6 +6547,23 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1057549716}
   m_CullTransparentMesh: 1
+--- !u!114 &1057549721
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1057549716}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 09225fe67433e9ed6a0ac07654ce7dc7, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  urunID: 26
+  fiyat: 2600
+  buButon: {fileID: 1057549718}
+  coinTexti: {fileID: 1656027014}
+  satildiResmi: {fileID: 0}
 --- !u!1 &1078205411
 GameObject:
   m_ObjectHideFlags: 0
@@ -5995,7 +6634,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: 100
+  m_Text: 1100
 --- !u!222 &1078205414
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -6225,7 +6864,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: 100
+  m_Text: 1800
 --- !u!222 &1118415566
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -6455,7 +7094,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: 100
+  m_Text: 600
 --- !u!222 &1139211066
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -6612,7 +7251,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   urunID: 8
   fiyat: 800
-  buButon: {fileID: 0}
+  buButon: {fileID: 1165325918}
   coinTexti: {fileID: 1656027014}
   satildiResmi: {fileID: 0}
 --- !u!1 &1192032015 stripped
@@ -6690,7 +7329,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: 100
+  m_Text: 3500
 --- !u!222 &1206309168
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -6711,6 +7350,7 @@ GameObject:
   - component: {fileID: 1257606475}
   - component: {fileID: 1257606474}
   - component: {fileID: 1257606473}
+  - component: {fileID: 1257606476}
   m_Layer: 5
   m_Name: Button (Legacy) (1)
   m_TagString: Untagged
@@ -6781,7 +7421,19 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 1257606474}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 1257606476}
+        m_TargetAssemblyTypeName: MarketUrunButonu, Assembly-CSharp
+        m_MethodName: SatinAl
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &1257606474
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -6820,6 +7472,23 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1257606471}
   m_CullTransparentMesh: 1
+--- !u!114 &1257606476
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1257606471}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 09225fe67433e9ed6a0ac07654ce7dc7, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  urunID: 20
+  fiyat: 2000
+  buButon: {fileID: 1257606473}
+  coinTexti: {fileID: 1656027014}
+  satildiResmi: {fileID: 0}
 --- !u!1 &1259543413
 GameObject:
   m_ObjectHideFlags: 0
@@ -6903,7 +7572,19 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 1259543416}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 1259543418}
+        m_TargetAssemblyTypeName: MarketUrunButonu, Assembly-CSharp
+        m_MethodName: SatinAl
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &1259543416
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -7108,7 +7789,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: 100
+  m_Text: 1500
 --- !u!222 &1389821315
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -7174,7 +7855,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 0}
+  m_Sprite: {fileID: -577169203, guid: 9b26be90b8a7b620d950ae924287cf6d, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -7400,7 +8081,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 0}
+  m_Sprite: {fileID: 1418384063, guid: 9b26be90b8a7b620d950ae924287cf6d, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -7430,6 +8111,7 @@ GameObject:
   - component: {fileID: 1515155738}
   - component: {fileID: 1515155737}
   - component: {fileID: 1515155736}
+  - component: {fileID: 1515155739}
   m_Layer: 5
   m_Name: Button (Legacy) (16)
   m_TagString: Untagged
@@ -7500,7 +8182,19 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 1515155737}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 1515155739}
+        m_TargetAssemblyTypeName: MarketUrunButonu, Assembly-CSharp
+        m_MethodName: SatinAl
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &1515155737
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -7539,6 +8233,23 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1515155734}
   m_CullTransparentMesh: 1
+--- !u!114 &1515155739
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1515155734}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 09225fe67433e9ed6a0ac07654ce7dc7, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  urunID: 33
+  fiyat: 3300
+  buButon: {fileID: 1515155736}
+  coinTexti: {fileID: 1656027014}
+  satildiResmi: {fileID: 0}
 --- !u!1 &1516914566
 GameObject:
   m_ObjectHideFlags: 0
@@ -7596,7 +8307,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 0}
+  m_Sprite: {fileID: -1826743669, guid: 9b26be90b8a7b620d950ae924287cf6d, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -7671,7 +8382,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 0}
+  m_Sprite: {fileID: 1198883979, guid: 87ccf3fe8592d5641a709ea55e0a52a6, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -7751,7 +8462,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 0}
+  m_Sprite: {fileID: 511304740, guid: 9b26be90b8a7b620d950ae924287cf6d, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -7990,7 +8701,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: 100
+  m_Text: 300
 --- !u!222 &1568555875
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -8026,7 +8737,7 @@ RectTransform:
   m_GameObject: {fileID: 1575897676}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalScale: {x: 1.0145, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 1532135710}
@@ -8069,7 +8780,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: 100
+  m_Text: 1400
 --- !u!222 &1575897679
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -8135,7 +8846,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 0}
+  m_Sprite: {fileID: 110047093, guid: 9b26be90b8a7b620d950ae924287cf6d, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -8362,7 +9073,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: 100
+  m_Text: 2300
 --- !u!222 &1694021094
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -8441,7 +9152,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: 100
+  m_Text: 3000
 --- !u!222 &1700159558
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -8520,7 +9231,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: 100
+  m_Text: 2500
 --- !u!222 &1707163244
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -8541,6 +9252,7 @@ GameObject:
   - component: {fileID: 1716082697}
   - component: {fileID: 1716082696}
   - component: {fileID: 1716082695}
+  - component: {fileID: 1716082698}
   m_Layer: 5
   m_Name: Button (Legacy) (13)
   m_TagString: Untagged
@@ -8611,7 +9323,19 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 1716082696}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 1716082698}
+        m_TargetAssemblyTypeName: MarketUrunButonu, Assembly-CSharp
+        m_MethodName: SatinAl
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &1716082696
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -8650,6 +9374,23 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1716082693}
   m_CullTransparentMesh: 1
+--- !u!114 &1716082698
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1716082693}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 09225fe67433e9ed6a0ac07654ce7dc7, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  urunID: 29
+  fiyat: 2900
+  buButon: {fileID: 1716082695}
+  coinTexti: {fileID: 1656027014}
+  satildiResmi: {fileID: 0}
 --- !u!1 &1738856362
 GameObject:
   m_ObjectHideFlags: 0
@@ -8813,6 +9554,7 @@ GameObject:
   - component: {fileID: 1788322946}
   - component: {fileID: 1788322945}
   - component: {fileID: 1788322944}
+  - component: {fileID: 1788322947}
   m_Layer: 5
   m_Name: Button (Legacy) (15)
   m_TagString: Untagged
@@ -8883,7 +9625,19 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 1788322945}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 1788322947}
+        m_TargetAssemblyTypeName: MarketUrunButonu, Assembly-CSharp
+        m_MethodName: SatinAl
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &1788322945
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -8922,6 +9676,23 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1788322942}
   m_CullTransparentMesh: 1
+--- !u!114 &1788322947
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1788322942}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 09225fe67433e9ed6a0ac07654ce7dc7, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  urunID: 32
+  fiyat: 3200
+  buButon: {fileID: 1788322944}
+  coinTexti: {fileID: 1656027014}
+  satildiResmi: {fileID: 0}
 --- !u!1 &1805475338 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 3882606646692041704, guid: a52c15f4a002d24c9bbcff8dea9ac70b, type: 3}
@@ -9155,7 +9926,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: 100
+  m_Text: 2700
 --- !u!222 &1882237227
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -9234,7 +10005,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: 100
+  m_Text: 2400
 --- !u!222 &1882900281
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -9313,7 +10084,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: 100
+  m_Text: 200
 --- !u!222 &1916407931
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -9543,7 +10314,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: 100
+  m_Text: 1200
 --- !u!222 &1942723413
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -9564,6 +10335,7 @@ GameObject:
   - component: {fileID: 2006133910}
   - component: {fileID: 2006133909}
   - component: {fileID: 2006133908}
+  - component: {fileID: 2006133911}
   m_Layer: 5
   m_Name: Button (Legacy) (12)
   m_TagString: Untagged
@@ -9634,7 +10406,19 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 2006133909}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 2006133911}
+        m_TargetAssemblyTypeName: MarketUrunButonu, Assembly-CSharp
+        m_MethodName: SatinAl
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &2006133909
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -9673,6 +10457,23 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2006133906}
   m_CullTransparentMesh: 1
+--- !u!114 &2006133911
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2006133906}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 09225fe67433e9ed6a0ac07654ce7dc7, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  urunID: 2700
+  fiyat: 2700
+  buButon: {fileID: 2006133908}
+  coinTexti: {fileID: 1656027014}
+  satildiResmi: {fileID: 0}
 --- !u!1 &2022978444
 GameObject:
   m_ObjectHideFlags: 0
@@ -9730,7 +10531,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 0}
+  m_Sprite: {fileID: -440148795, guid: 87ccf3fe8592d5641a709ea55e0a52a6, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -9956,7 +10757,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 0}
+  m_Sprite: {fileID: 339914901, guid: 87ccf3fe8592d5641a709ea55e0a52a6, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -10044,7 +10845,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: 100
+  m_Text: 2800
 --- !u!222 &2129447900
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -10072,6 +10873,10 @@ PrefabInstance:
     - target: {fileID: 3862353096926999115, guid: ec69559d747a9690bac3ddb68a4723f2, type: 3}
       propertyPath: m_Name
       value: CraftingHospital2
+      objectReference: {fileID: 0}
+    - target: {fileID: 3862353096926999115, guid: ec69559d747a9690bac3ddb68a4723f2, type: 3}
+      propertyPath: m_IsActive
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 7659438907377070145, guid: ec69559d747a9690bac3ddb68a4723f2, type: 3}
       propertyPath: m_Camera
@@ -10117,6 +10922,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 8664494041694816296, guid: ec69559d747a9690bac3ddb68a4723f2, type: 3}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: -2009061829, guid: 9b26be90b8a7b620d950ae924287cf6d, type: 3}
     - target: {fileID: 8709141037704734362, guid: ec69559d747a9690bac3ddb68a4723f2, type: 3}
       propertyPath: m_AnchoredPosition.x
       value: 344
@@ -10132,6 +10941,7 @@ PrefabInstance:
     - {fileID: 8217682187744995000, guid: ec69559d747a9690bac3ddb68a4723f2, type: 3}
     - {fileID: 601505679830194347, guid: ec69559d747a9690bac3ddb68a4723f2, type: 3}
     - {fileID: 5111745680839840329, guid: ec69559d747a9690bac3ddb68a4723f2, type: 3}
+    - {fileID: 2258998550137745002, guid: ec69559d747a9690bac3ddb68a4723f2, type: 3}
     m_AddedGameObjects:
     - targetCorrespondingSourceObject: {fileID: 7857870391018634079, guid: ec69559d747a9690bac3ddb68a4723f2, type: 3}
       insertIndex: -1
@@ -10238,6 +11048,9 @@ PrefabInstance:
     - targetCorrespondingSourceObject: {fileID: 2515333217728370561, guid: ec69559d747a9690bac3ddb68a4723f2, type: 3}
       insertIndex: 17
       addedObject: {fileID: 313211311}
+    - targetCorrespondingSourceObject: {fileID: 2515333217728370561, guid: ec69559d747a9690bac3ddb68a4723f2, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 459166466}
     m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: ec69559d747a9690bac3ddb68a4723f2, type: 3}
 --- !u!1001 &6114257580191126312
