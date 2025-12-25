@@ -333,6 +333,7 @@ public class Soru
     public string A, B, C, D; 
     public string dogruCevap;
 
+    // Kurucu metod 7 parametre alır
     public Soru(int id, string soru, string a, string b, string c, string d, string dogru)
     {
         this.kategoriID = id;
@@ -412,6 +413,7 @@ public class DatabaseManager : MonoBehaviour
         UI_Guncelle();
 
         // --- ZORLA BAŞLATMA (ID: 1) ---
+        // PlayerPrefs hatasını önlemek için burada manuel 1 yapıyoruz.
         int gelenID = 1; 
         Debug.Log("Zorla Başlatılan Kategori ID: " + gelenID);
         KategoriBaslat(gelenID);
@@ -525,7 +527,7 @@ public class DatabaseManager : MonoBehaviour
         tumSorularHavuzu.Clear();
 
         // -------------------------------------------------------------
-        // ID 1: KÖKLÜ SAYILAR (MATEMATİK) - GENİŞLETİLMİŞ LİSTE
+        // ID 1: KÖKLÜ SAYILAR (MATEMATİK) - 30+ SORU
         // -------------------------------------------------------------
 
         // --- TAM KARELER & BASİT KÖKLER ---
@@ -551,22 +553,24 @@ public class DatabaseManager : MonoBehaviour
         tumSorularHavuzu.Add(new Soru(1, "√18 + √8 işleminin sonucu aşağıdakilerden hangisidir?", "√26", "2√5", "5√2", "6√2", "C"));
         tumSorularHavuzu.Add(new Soru(1, "5√2 - 3√2 işleminin sonucu nedir?", "2", "√2", "2√2", "4√2", "C"));
         tumSorularHavuzu.Add(new Soru(1, "√50 - √18 işleminin sonucu kaçtır?", "2√2", "√32", "4√2", "8", "A"));
-        tumSorularHavuzu.Add(new Soru(1, "2√3 . 3√3 işleminin sonucu kaçtır?", "5√3", "6√9", "18", "6", "C")); // 2.3=6, √3.√3=3 => 6.3=18
+        tumSorularHavuzu.Add(new Soru(1, "2√3 . 3√3 işleminin sonucu kaçtır?", "5√3", "6√9", "18", "6", "C")); 
 
         // --- ONDALIK GÖSTERİM & DENKLEMLER ---
         tumSorularHavuzu.Add(new Soru(1, "√0,04 sayısı rasyonel olarak nasıl ifade edilir?", "0,02", "0,2", "0,4", "2", "B"));
         tumSorularHavuzu.Add(new Soru(1, "√1,21 sayısı kaçtır?", "1,1", "11", "0,11", "1,2", "A"));
-        tumSorularHavuzu.Add(new Soru(1, "√0,09 + √0,16 toplamı kaçtır?", "0,7", "0,5", "0,25", "0,07", "A")); // 0.3+0.4=0.7
+        tumSorularHavuzu.Add(new Soru(1, "√0,09 + √0,16 toplamı kaçtır?", "0,7", "0,5", "0,25", "0,07", "A")); 
         tumSorularHavuzu.Add(new Soru(1, "√x = 7 ise x kaçtır?", "14", "36", "49", "56", "C"));
-        tumSorularHavuzu.Add(new Soru(1, "√x / 2 = 3 ise x kaçtır?", "6", "12", "36", "9", "C")); // √x=6 => x=36
+        tumSorularHavuzu.Add(new Soru(1, "√x / 2 = 3 ise x kaçtır?", "6", "12", "36", "9", "C"));
         
         // --- İÇ İÇE KÖKLER & GEOMETRİ & TAHMİN ---
         tumSorularHavuzu.Add(new Soru(1, "√21 + √16 işleminin sonucu kaçtır?", "4", "5", "6", "25", "B")); 
         tumSorularHavuzu.Add(new Soru(1, "Alanı 81 cm² olan kare şeklindeki bir masanın bir kenarı kaç cm'dir?", "8", "9", "18", "40.5", "B"));
         tumSorularHavuzu.Add(new Soru(1, "Alanı 200 cm² olan karenin bir kenarı kaç cm'dir?", "10√2", "20", "100", "50", "A"));
         tumSorularHavuzu.Add(new Soru(1, "Aşağıdakilerden hangisi irrasyonel bir sayıdır?", "√4", "√9", "√11", "√16", "C"));
-        tumSorularHavuzu.Add(new Soru(1, "√10 sayısı hangi iki tam sayı arasındadır?", "2 ile 3", "3 ile 4", "4 ile 5", "9 ile 11", "B")); // √9=3, √16=4
-        tumSorularHavuzu.Add(new Soru(1, "√20 sayısı aşağıdakilerden hangisine daha yakındır?", "4", "5", "4.5", "6", "4.5", "A")); // 4.47, 4'e yakındır (√16=4, √25=5)
+        tumSorularHavuzu.Add(new Soru(1, "√10 sayısı hangi iki tam sayı arasındadır?", "2 ile 3", "3 ile 4", "4 ile 5", "9 ile 11", "B"));
+        
+        // DÜZELTİLEN SATIR:
+        tumSorularHavuzu.Add(new Soru(1, "√20 sayısı aşağıdakilerden hangisine daha yakındır?", "4", "5", "4.5", "6", "A")); 
 
         Debug.Log("✅ KÖKLÜ SAYILAR soruları (30+ adet) başarıyla yüklendi.");
     }
