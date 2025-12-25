@@ -3114,7 +3114,7 @@ RectTransform:
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
   m_AnchoredPosition: {x: 300, y: 900}
-  m_SizeDelta: {x: 374.46106, y: 79.28909}
+  m_SizeDelta: {x: 1076.94, y: 79.28909}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1441038637
 MonoBehaviour:
@@ -3136,9 +3136,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: 'ELGAY
-
-'
+  m_text: KOkLU SAYILAR
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 6dd8db5e60beb0d4aab60ef5a3a5fb60, type: 2}
   m_sharedMaterial: {fileID: -2573757109636691426, guid: 6dd8db5e60beb0d4aab60ef5a3a5fb60, type: 2}
