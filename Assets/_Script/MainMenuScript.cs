@@ -23,6 +23,9 @@ public class MenuManager : MonoBehaviour
     public void QuitGame()
     {
         Application.Quit();
+        #if UNITY_EDITOR
+    UnityEditor.EditorApplication.isPlaying = false;
+    #endif
         Debug.Log("Oyun kapatıldı."); // Editör içinde test amaçlı
     }
     public void Settings()
