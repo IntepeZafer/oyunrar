@@ -19,6 +19,11 @@ public class MenuManager : MonoBehaviour
             SceneManager.LoadScene("HospitalScene");
         }
 
+        public void homwtalcane()
+        {
+            SceneManager.LoadScene("SampleScene");
+        }
+
     // Oyunu kapatmak için (QuitButton için)
     public void QuitGame()
     {
