@@ -21998,6 +21998,18 @@ PrefabInstance:
       propertyPath: m_PreserveAspect
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: 1726161619855503227, guid: a52c15f4a002d24c9bbcff8dea9ac70b, type: 3}
+      propertyPath: m_fontSize
+      value: 45
+      objectReference: {fileID: 0}
+    - target: {fileID: 1726161619855503227, guid: a52c15f4a002d24c9bbcff8dea9ac70b, type: 3}
+      propertyPath: m_margin.z
+      value: -7.2564316
+      objectReference: {fileID: 0}
+    - target: {fileID: 1726161619855503227, guid: a52c15f4a002d24c9bbcff8dea9ac70b, type: 3}
+      propertyPath: m_fontSizeBase
+      value: 45
+      objectReference: {fileID: 0}
     - target: {fileID: 1872861779180190873, guid: a52c15f4a002d24c9bbcff8dea9ac70b, type: 3}
       propertyPath: m_LocalPosition.x
       value: 153.83592
@@ -22220,7 +22232,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 6681632254337698937, guid: a52c15f4a002d24c9bbcff8dea9ac70b, type: 3}
       propertyPath: m_AnchoredPosition.x
-      value: -140.56
+      value: -97
       objectReference: {fileID: 0}
     - target: {fileID: 6681632254337698937, guid: a52c15f4a002d24c9bbcff8dea9ac70b, type: 3}
       propertyPath: m_AnchoredPosition.y
@@ -22272,7 +22284,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 8190904662580573754, guid: a52c15f4a002d24c9bbcff8dea9ac70b, type: 3}
       propertyPath: m_AnchoredPosition.x
-      value: 0
+      value: 58
       objectReference: {fileID: 0}
     - target: {fileID: 8190904662580573754, guid: a52c15f4a002d24c9bbcff8dea9ac70b, type: 3}
       propertyPath: m_AnchoredPosition.y
